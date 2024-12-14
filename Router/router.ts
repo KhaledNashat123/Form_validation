@@ -6,7 +6,7 @@ import { validationResult } from "express-validator";
 const router = express.Router();
 
 router.get('/', async (req : Request , res: Response, next : NextFunction) =>{
-    res.render("index")
+    res.render("index");
 })
 
 router.post('/' , Inputs_validation() , (req : Request , res: Response , next : NextFunction)=>{

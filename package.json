@@ -8,7 +8,7 @@
   "license": "ISC",
   "scripts": {
     "build": "tsc",
-    "start": "node app.js",
+    "start": "node build/app.js", 
     "dev": "ts-node app.ts"
   },
   "dependencies": {
